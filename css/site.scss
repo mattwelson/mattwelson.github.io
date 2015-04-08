@@ -27,12 +27,20 @@ h6 {
 
 header, .header
 {
-	margin: 0 auto;
+	text-align:center;
 	color:white;
 	text-shadow: 0 0 5px black;
+	margin-top:50%;
+	position:absolute;
 }
 
 .container__top {
-	background-image: url('https://unsplash.it/1920/951?image=179');
+	background-image: url('https://unsplash.it/1920/950?image=179');
 	height:90vh;
+	z-index:0;
+	position:relative;
+}
+
+.container__body {
+	z-index:10;
 }
